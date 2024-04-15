@@ -1,0 +1,204 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: "Roboto", sans-serif;
+     /* overflow: hidden; */
+}
+
+body {
+     /* background-image: url("photo.jpg"); */
+     margin: 0;
+     padding: 0;
+     background-image: url(IMG/consola.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+/* Imgens de busqueda de inventario  */
+header {
+     /*  */
+
+}
+
+/* imagen de 27ts */
+header img {
+     width: 150px;
+}
+
+/* input para buscar */
+#SEARCH {
+     width: 500px;
+     height: 40px;
+     text-align: left;
+     padding-left: 40px;
+     border-radius: 5px;
+     border: none;
+     font-size: 1rem;
+
+}
+
+#SEARCH:focus {
+     border-radius: 5 0px;
+     border: none;
+     outline: none;
+
+
+}
+
+/* texto del placeholder */
+#SEARCH::placeholder {
+     padding-left: 40px;
+     color: rgb(0, 179, 255);
+}
+
+/*************************************************/
+
+
+/* Boton para buscar dentro del inventario  */
+.btn-inv {
+     background-color: rgb(252, 255, 255);
+     border-radius: 5px;
+     border: none;
+     /* color: #fff; */
+     color: #000;
+     width: 190px;
+     height: 40px;
+     font-size: 1rem;
+     /* padding: 0px 10px 1px; */
+}
+
+.btn-inv:hover {
+     background-color: rgb(72, 232, 72);
+     color: #fff;
+}
+
+.btn-seach {
+     text-align: center;
+     /*Aliniar el texto */
+     background-color: rgb(252, 255, 255);
+     border-radius: 5px;
+     border: none;
+     /* color: #fff; */
+     color: #000;
+     width: 150px;
+     height: 40px;
+     font-size: 1rem;
+     /* box-shadow: 6px 4px 10px rgb(253, 2, 2); */
+}
+
+.btn-seach:hover {
+     background-color: rgb(72, 232, 72);
+     color: #fff;
+
+
+}
+
+.btn {
+     background-color: rgb(252, 255, 255);
+     border-radius: 5px;
+     border: none;
+     /* color: #fff; */
+     color: #000;
+     width: 190px;
+     height: 40px;
+     font-size: 1rem;
+     font-weight: bold;
+     /* padding: 0px 10px 1px; */
+}
+
+/*****************************/
+
+/* SHOW inventario  */
+.INV {
+     text-align: center;
+     background-color: rgba(49, 43, 43, 0.5);
+     padding: 15px 0px;
+
+}
+
+.show_inv {
+     padding: 50px 50px 50px 500px;
+     background-color: #fff;
+     text-align: center;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     /* margin: 30px; */
+     /* position: absolute;
+     left: 50%;
+     transform: translate(-50%, 50%); */
+}
+
+/*Tablas*/
+.tb-result {
+     text-align: center;
+     align-items: center;
+     font-size: 1rem;
+     width: 50%;
+     border: #000 1px;
+     border-style: outset;
+}
+
+th {
+     text-align: center;
+     align-items: center;
+     color: rgb(72, 232, 72);
+     padding: 5px 10px 5px;
+
+}
+
+/* contenio de las tablas  */
+td {
+     padding: 1px 5px 10px;
+}
+
+
+
+
+.alert_db {
+     display: none;
+     background-color: #ff0000;
+     text-align: center;
+     /* border: 1px solid white; */
+     width: 500px;
+     height: 500px;
+     /* aqui */
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     z-index: -1;
+}
+
+
+#option {
+     cursor: pointer;
+     text-align: center;
+     /*Aliniar el texto */
+     background-color: rgb(252, 255, 255);
+     border-radius: 5px;
+     border: none;
+     /* color: #fff; */
+     color: #000;
+     width: 150px;
+     height: 40px;
+     font-size: 1rem;
+}
+
+/*  */
+option:hover {
+     /* background-color: rgb(72, 232, 72); */
+     color: #fff;
+     text-align: end;
+
+}
+
+.no-result {
+     /* display: none; */
+     position: absolute;
+     width: 500px;
+     height: 500px;
+     top: 50%;
+     left: 50%;
+     border-radius: 15%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     /* z-index: 3; */
+     background-color: #f9030360;
+     color: #000000;
+}

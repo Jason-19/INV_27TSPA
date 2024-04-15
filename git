@@ -1,0 +1,16 @@
+echo "# INV_27TSPA">>README.md 
+git init 
+git add README.md 
+git commit -m "first commit"
+git branch -M main 
+git remote add origin https: //github.com/Jason-19/INV_27TSPA.git
+
+
+
+git remote add origin https://github.com/Jason-19/INV_27TSPA.git
+git branch -M main
+git push -u origin main
+
+
+
+git push -u origin main https: //github.com/Jason-19/INV_27TSPA.git
